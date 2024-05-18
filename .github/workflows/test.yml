@@ -3,7 +3,7 @@ name: test
 on:
   push:
     branches:
-      - master
+      - run-test
   pull_request:
   schedule:
     - cron: "0 0 * * *" # JST 09:00
